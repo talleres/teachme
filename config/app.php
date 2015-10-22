@@ -39,7 +39,7 @@ return [
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'America/Mexico_City',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'TeachMe\Providers\AppServiceProvider',
+		'TeachMe\Providers\BusServiceProvider',
+		'TeachMe\Providers\ConfigServiceProvider',
+		'TeachMe\Providers\EventServiceProvider',
+		'TeachMe\Providers\RouteServiceProvider',
 
 	],
 
